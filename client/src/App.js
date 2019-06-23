@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+
 import './App.css';
-import Menu from "./components/Menu";
 import Input from "./components/Input";
 import Books from "./components/Books";
 import BookList from "./components/BookList";
