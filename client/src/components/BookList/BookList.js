@@ -15,7 +15,6 @@ const BookList = ({ data, highlight, visibility }) => {
 					         rowNumber = {i}
 					         title = {entry.title}
 					         author = {entry.authors}
-					         rating = {entry.rating}
 					         highlight = {highlight}
 					/>
 				)}

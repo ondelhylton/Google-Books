@@ -1,8 +1,8 @@
-const cors = require('cors-express');
+
 const express = require("express");
 const bodyParser = require("body-parser");
 const Books = require("./books");
-
+const cors = require('cors-express');
 const PORT = process.env.PORT || 3001;
 const app = express();
 const router = express.Router();
@@ -15,14 +15,9 @@ const options = {
     },
 }
 
-// this is our MongoDB database
-//require db connection
 require('./models');
 
 app.use(cors(options));
-// (optional) only made for logging and
-// bodyParser, parses the request body to be a readable json format
-// configure app to use bady parser to extract JSON from POST
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 

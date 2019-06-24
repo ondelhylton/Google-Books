@@ -1,11 +1,10 @@
 #book-highlight {
   box-sizing: border-box;
-  border-radius: 25px;
   opacity: 0.89;
   margin: 100px auto;
   padding: 50px;
   padding-top: 50px;
-  background: LightGrey;
+  background: whitesmoke;
   height: 100%;
   width:60%;
 }

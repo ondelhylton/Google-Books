@@ -1,5 +1,9 @@
 nav.navbar.navbar-default {
   margin-bottom: 0;
+  
 
 }
 
+nav.input-group.input-group-lg {
+  margin: auto
+}
