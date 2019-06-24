@@ -1,10 +1,10 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-// this will be our data base's data structure 
+
 const BookSchema = new Schema({
-  title: String,
-  authors: String,
+  title: { type: String, required: true },
+  author: { type: String, required: true },
   rating: Number,
   publisher: String,
   publishedDate: String,
@@ -14,5 +14,4 @@ const BookSchema = new Schema({
   purchase: String
 });
 
-// export the new Schema so we could modify it using Node.js
 module.exports = mongoose.model("Books", BookSchema);
