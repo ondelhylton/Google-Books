@@ -31,7 +31,7 @@
     "express": "^4.16.4",
     "mongoose": "^5.4.17",
     "morgan": "^1.9.1",
-    "node-sass": "^4.11.0",
+    "node-sass": "^7.0.0",
     "router": "^1.3.3",
     "start-react-app": "^0.1.9"
   },
